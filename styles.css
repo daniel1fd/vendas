@@ -1,0 +1,70 @@
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilizando o cabeçalho */
+h1 {
+    background-color: #0f0f0f;
+    color: #5c9199;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Estilizando os formulários */
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    padding-right:40px ;
+}
+
+/* Estilizando os rótulos e campos de entrada */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilizando o botão */
+input[type="submit"] {
+    background-color: #0f0f0f;
+    color:#5c9199 ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+button{
+    background-color: #0f0f0f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+a{
+text-decoration: none;
+color: #5c9199;
+}
